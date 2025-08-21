@@ -1,8 +1,8 @@
-# 🧠 Uniwersalna Maszyna Stanów (State Machine) w C#
+# 🧠 Uniwersalna Maszyna Stanów (State Machine) w Unity
 
 ## 📌 Opis
 
-Ten projekt zawiera generyczną implementację maszyny stanów (`StateMachine`) w języku C#, zaprojektowaną z myślą o łatwym rozszerzaniu i ponownym wykorzystaniu. Dzięki zastosowaniu wzorców projektowych takich jak **State**, **Factory** i **Composite**, możliwe jest tworzenie złożonych hierarchii stanów, które można łatwo zarządzać i testować.
+Ten projekt zawiera generyczną implementację maszyny stanów (`StateMachine`) w języku C#, zaprojektowaną z myślą o łatwym rozszerzaniu i wykorzystaniu w silniku Unity. Dzięki zastosowaniu wzorców projektowych takich jak **State**, **Factory** i **Composite**, możliwe jest tworzenie złożonych hierarchii stanów, które można łatwo zarządzać i testować.
 
 System wspiera:
 - Stany główne i podrzędne (substates)
@@ -153,4 +153,5 @@ public class PlayerGroundedState : PlayerState, IRootState
 | `PlayerState.cs`         | Klasa bazowa dla stanów gracza               |
 | `PlayerGroundedState.cs` | Konkretny stan główny                        |
 | `PlayerIdleState.cs`     | Konkretny stan podrzędny (np. bezruchu)      |
+
 
